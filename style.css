@@ -1,12 +1,84 @@
-body {
-  font-family: "Open Sans", sans-serif;
-  padding: 40px;
 
-subrayado  {   
-   text-decoration: underline
-       }
+
+
+body{
+  font-family: 'Dekko', cursive;
+    background-image: url(textura-pergamino.jpg);
+    font-size: 18px;
+}
+.container{
+    width: 900px;
+    height: 1100px;
+     margin: 0 auto;
+    border: 2px groove black;
+    box-shadow: 5px 5px 5px;
+}
+h1{
+    letter-spacing: 6px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 12px;
+    text-shadow: 2px 2px 2px;
+    font-size: 35px;
     
-sombreado  {    
-    background-color: antiquewhite
-    }
     
+}
+span{
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+h2{
+    font-size: 20px;
+}
+
+
+.foto{
+     width: 20%;
+     padding: 12px;
+     vertical-align: middle;
+     display: inline-block;
+     margin-right: 30px;
+    
+}
+
+.foto img{
+     width: 100%;
+     height: auto;
+     border-radius: 14px; 
+}
+.datospersonales{
+    width: 70%;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 1.4;
+    
+}
+.datospersonales>p{
+    
+    font-size: 30px;
+}
+a hover:{
+    
+    background-color: darkred;
+    
+}
+
+.cuerpo{
+    
+    margin-left: 20px;
+}
+table{
+
+    width: 50%;
+    margin-left: 20px;
+ 
+    
+}
+th{
+    
+text-align: left;
+}
+
+
+
