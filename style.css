@@ -80,5 +80,17 @@ th{
 text-align: left;
 }
 
+@media print{
+    .container{
+        border: none;
+            }
+    .datospersonales a{
+        text-decoration: none;
+                 
+    }
+    
+    }
+}
+
 
 
